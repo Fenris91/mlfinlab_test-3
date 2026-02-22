@@ -2,7 +2,21 @@
 
 Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
-Fixes # (issue)
+## Linked issues
+
+Use GitHub auto-close keywords (one per line):
+
+Fixes # (primary issue)
+Closes # (optional secondary issue)
+Resolves # (optional secondary issue)
+
+### Split issue mapping (for multi-track PRs)
+
+- [ ] Issue #__ – `src/bet_sizing/kelly.py`
+- [ ] Issue #__ – `src/statistics/sharpe_tests.py`
+- [ ] Issue #__ – `src/costs/transaction_costs.py`
+- [ ] Issue #__ – `src/risk/ruin_probability.py`
+- [ ] Issue #__ – `src/cross_validation/cpcv.py`
 
 ## Type of change
 
